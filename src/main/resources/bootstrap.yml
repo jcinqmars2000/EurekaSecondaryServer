@@ -1,0 +1,12 @@
+---
+spring:
+  application:
+    name: EurekaSecondaryServer
+  cloud:
+    config: 
+      uri: http://config.responsible-nrg.com
+  profiles:
+    active: eureka-secondary
+
+
+           
