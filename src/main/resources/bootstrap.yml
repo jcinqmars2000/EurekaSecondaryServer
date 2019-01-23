@@ -1,7 +1,7 @@
 ---
 spring:
   application:
-    name: EurekaSecondaryServer
+    name: Eureka-Cluster
   cloud:
     config: 
       uri: http://config.responsible-nrg.com
